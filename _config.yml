@@ -8,7 +8,9 @@ subtitle: ''
 description: ''
 keywords:
 author: masteryyh
-language: zh-CN
+language: 
+  - zh-CN
+  - en
 timezone: 'Asia/Shanghai'
 
 # URL
