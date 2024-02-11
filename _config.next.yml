@@ -99,9 +99,9 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -118,11 +118,11 @@ darkmode: true
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || home
+  home: / || fa-solid fa-house
   #about: /about/ || user
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
+  tags: /tags/ || fa-solid fa-tag
+  categories: /categories/ || fa-solid fa-list
+  archives: /archives/ || fa-solid fa-box-archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -179,9 +179,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/masteryyh || github
-  E-Mail: mailto:yyh991013@163.com || envelope
-  WeChat: /assets/wechat.jpg || wechat
+  GitHub: https://github.com/masteryyh || fa-brands fa-github
+  E-Mail: mailto:yyh991013@163.com || fa-solid fa-envelope
+  WeChat: /assets/wechat.jpg || fa-brands fa-weixin
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter

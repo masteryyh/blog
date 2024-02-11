@@ -8,6 +8,7 @@ categories:
 date: 2024-02-09 07:08:39
 ---
 
+![first-handshake](/assets/first-handshake.png "First Handshake")
 
 ## 第一次握手
 
@@ -25,6 +26,7 @@ NAME     STATUS   ROLES                  AGE   VERSION
 ubuntu   Ready    control-plane,master   58s   v1.28.6+k3s2
 ```
 
+<!--more-->
 查看各个 Pod 状态
 
 ```bash
@@ -39,7 +41,6 @@ kube-system   traefik-f4564c4f4-66tng                   1/1     Running     0   
 kube-system   metrics-server-67c658944b-fhgj8           1/1     Running     0          48s
 ```
 
-<!--more-->
 对外公布第一个网页
 
 ```yaml
