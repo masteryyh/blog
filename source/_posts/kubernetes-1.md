@@ -18,6 +18,7 @@ date: 2024-02-13 12:40:36
 
 反正 Wiki 的介绍看看就行。简而言之，Kubernetes 是一个容器编排引擎，用于管理和编排容器化应用程序。
 
+<!--more-->
 ## 基本组件和架构
 
 ### 架构
@@ -56,9 +57,9 @@ Kubernetes 中的计算机被称为节点 (node) ，并且分为两种：主节�
 
 - kube-scheduler: 用于调度尚未分配到指定节点的 Pod 到不同的可调度节点上的调度器；
 
-- kube-controller-manager: 用于运行 Kubernetes 内置的控制器；
+- kube-controller-manager: 用于运行 Kubernetes 内置的控制器，比如 Pod 和 Deployment 等；
 
-- cloud-controller-manager: 用于运行公有云或特定 Kubernetes 发行版所提供的特殊功能的控制器；
+- cloud-controller-manager: 用于运行公有云或特定 Kubernetes 发行版所提供的特殊功能的控制器。公有云平台可以通过这些控制器来与公有云的 API 服务交互，实现对云平台上的资源的控制，比如 VPS 节点和负载均衡实例。
 
 ## 声明式 API 和控制器
 
